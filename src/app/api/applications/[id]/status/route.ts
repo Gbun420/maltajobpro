@@ -3,11 +3,11 @@ import { supabase } from '@/app/lib/supabase'
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: any
 ) {
   try {
     const { status } = await request.json()
-    const applicationId = params.id
+    const { id } = params
 
     if (!status) {
       return NextResponse.json({ message: 'Status is required' }, { status: 400 });
