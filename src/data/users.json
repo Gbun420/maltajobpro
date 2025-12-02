@@ -1,0 +1,17 @@
+[
+  {
+    "id": "user-1",
+    "email": "seeker@example.com",
+    "password": "password123",
+    "role": "seeker",
+    "name": "John Doe"
+  },
+  {
+    "id": "user-2",
+    "email": "employer@example.com",
+    "password": "password123",
+    "role": "employer",
+    "name": "Jane Smith",
+    "company": "Malta Solutions Ltd."
+  }
+]
